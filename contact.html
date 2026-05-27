@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FrostWave — Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="nav-logo">FrostWave</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="beats.html">Beats</a></li>
+      <li><a href="kits.html">Kits</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="panier.html" class="panier-btn">Panier (<span id="cart-count">0</span>)</a></li>
+    </ul>
+  </nav>
+
+  <section class="page-header">
+    <h1>Contact</h1>
+    <p>Collab · Licence · Beat sur mesure · Question</p>
+  </section>
+
+  <div class="tape">
+    <div class="tape-inner">
+      <span class="tape-item">FROSTWAVE</span><span class="tape-item red">✦</span>
+      <span class="tape-item">CONTACTEZ MOI</span><span class="tape-item red">✦</span>
+      <span class="tape-item">COLLAB</span><span class="tape-item red">✦</span>
+      <span class="tape-item">BEAT SUR MESURE</span><span class="tape-item red">✦</span>
+      <span class="tape-item">LICENCE</span><span class="tape-item red">✦</span>
+      <span class="tape-item">FROSTWAVE</span><span class="tape-item red">✦</span>
+      <span class="tape-item">CONTACTEZ MOI</span><span class="tape-item red">✦</span>
+      <span class="tape-item">COLLAB</span><span class="tape-item red">✦</span>
+      <span class="tape-item">BEAT SUR MESURE</span><span class="tape-item red">✦</span>
+      <span class="tape-item">LICENCE</span><span class="tape-item red">✦</span>
+    </div>
+  </div>
+
+  <section class="contact-section">
+    <div class="contact-wrapper">
+
+      <div class="contact-infos">
+        <h3>Infos rapides</h3>
+        <p>📧 <a href="mailto:frostwave.wav@gmail.com">frostwave.wav@gmail.com</a></p>
+        <p>📱 Instagram : <a href="https://instagram.com/frostwave" target="_blank">@frostwave</a></p>
+        <p style="margin-top: 25px; font-size: 0.85rem;">
+          Je réponds généralement sous 24h.<br/>
+          Pour les licences exclusives, précise bien le beat dans ton message.
+        </p>
+      </div>
+
+      <form class="contact-form" action="https://formspree.io/f/TONID" method="POST">
+
+        <div class="form-group">
+          <label for="nom">Ton nom / artiste</label>
+          <input type="text" id="nom" name="nom" placeholder="Ex : Lil Frost" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Ton adresse email</label>
+          <input type="email" id="email" name="email" placeholder="tonemail@gmail.com" required />
+        </div>
+
+        <div class="form-group">
+          <label for="sujet">Sujet</label>
+          <select id="sujet" name="sujet">
+            <option value="">— Choisir un sujet —</option>
+            <option value="collab">Collaboration</option>
+            <option value="licence-mp3">Licence MP3</option>
+            <option value="licence-wav">Licence WAV</option>
+            <option value="licence-exclu">Licence exclusive</option>
+            <option value="custom">Beat sur-mesure</option>
+            <option value="kit">Question sur un kit</option>
+            <option value="autre">Autre</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Ton message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Dis-moi tout..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn-principal" style="width:100%">
+          📩 Envoyer le message
+        </button>
+
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 FrostWave — Tous droits réservés</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

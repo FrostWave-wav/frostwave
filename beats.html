@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FrostWave — Beats</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="nav-logo">FrostWave</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="beats.html">Beats</a></li>
+      <li><a href="kits.html">Kits</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="panier.html" class="panier-btn">Panier (<span id="cart-count">0</span>)</a></li>
+    </ul>
+  </nav>
+
+  <section class="page-header">
+    <h1>Beats</h1>
+    <p>Écoute, choisis, achète — MP3, WAV ou Exclusive</p>
+  </section>
+
+  <!-- TAPE -->
+  <div class="tape">
+    <div class="tape-inner">
+      <span class="tape-item">FROSTWAVE</span><span class="tape-item red">✦</span>
+      <span class="tape-item">DARK TRAP</span><span class="tape-item red">✦</span>
+      <span class="tape-item">MELODY TRAP</span><span class="tape-item red">✦</span>
+      <span class="tape-item">JERK</span><span class="tape-item red">✦</span>
+      <span class="tape-item">808 MAFIA</span><span class="tape-item red">✦</span>
+      <span class="tape-item">FRENCH BEATMAKER</span><span class="tape-item red">✦</span>
+      <span class="tape-item">FROSTWAVE</span><span class="tape-item red">✦</span>
+      <span class="tape-item">DARK TRAP</span><span class="tape-item red">✦</span>
+      <span class="tape-item">MELODY TRAP</span><span class="tape-item red">✦</span>
+      <span class="tape-item">JERK</span><span class="tape-item red">✦</span>
+      <span class="tape-item">808 MAFIA</span><span class="tape-item red">✦</span>
+      <span class="tape-item">FRENCH BEATMAKER</span><span class="tape-item red">✦</span>
+    </div>
+  </div>
+
+  <section class="catalogue">
+    <div class="section-label">Beats disponibles</div>
+
+    <!-- KING -->
+    <div class="beat-card">
+      <div class="beat-card-inner">
+        <div class="beat-left">
+          <span class="beat-num">01</span>
+          <div class="beat-info">
+            <h3>King</h3>
+            <p class="beat-tags">138 BPM · Trap · Mineur</p>
+          </div>
+        </div>
+        <div class="beat-right">
+          <div class="prix-options">
+            <div class="prix-option">
+              <div>
+                <span class="prix-label">Licence MP3</span>
+                <p class="licence-detail">Usage non-commercial</p>
+              </div>
+              <span class="prix-montant">50€</span>
+              <button onclick="ajouterAuPanier('King — Licence MP3', 50, 'Beat')" class="btn-acheter">Ajouter</button>
+            </div>
+            <div class="prix-option">
+              <div>
+                <span class="prix-label">Licence WAV</span>
+                <p class="licence-detail">Usage commercial</p>
+              </div>
+              <span class="prix-montant">100€</span>
+              <button onclick="ajouterAuPanier('King — Licence WAV', 100, 'Beat')" class="btn-acheter">Ajouter</button>
+            </div>
+            <div class="prix-option prix-option-exclu">
+              <div>
+                <span class="prix-label">Exclusive</span>
+                <p class="licence-detail">Droits complets</p>
+              </div>
+              <span class="prix-montant">200€</span>
+              <button onclick="ajouterAuPanier('King — Licence Exclusive', 200, 'Beat')" class="btn-acheter btn-exclu">Ajouter</button>
+            </div>
+            <div class="prix-option prix-option-custom">
+              <div>
+                <span class="prix-label">Sur mesure</span>
+                <p class="licence-detail">Produit pour toi</p>
+              </div>
+              <span class="prix-montant">Devis</span>
+              <a href="contact.html" class="btn-custom">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <audio controls class="beat-player">
+        <source src="beats/frostwave-138bpm-king.mp3" type="audio/mpeg" />
+      </audio>
+    </div>
+
+  </section>
+
+  <section class="contact-rapide">
+    <h3>Une question ?</h3>
+    <p>Écris-moi : <a href="mailto:frostwave.wav@gmail.com">frostwave.wav@gmail.com</a></p>
+    <a href="contact.html" class="btn-secondaire">📩 Formulaire de contact</a>
+  </section>
+
+  <footer>
+    <p>© 2026 FrostWave — Tous droits réservés</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

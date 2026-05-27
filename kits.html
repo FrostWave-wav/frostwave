@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FrostWave — Kits</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="nav-logo">FrostWave</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="beats.html">Beats</a></li>
+      <li><a href="kits.html">Kits</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="panier.html" class="panier-btn">Panier (<span id="cart-count">0</span>)</a></li>
+    </ul>
+  </nav>
+
+  <section class="page-header">
+    <h1>Drum Kits</h1>
+    <p>Kicks lourds · Hi-hats crispy · 808s glaciales</p>
+  </section>
+
+  <!-- TAPE -->
+  <div class="tape">
+    <div class="tape-inner">
+      <span class="tape-item">FROSTWAVE KITS</span><span class="tape-item red">✦</span>
+      <span class="tape-item">808S</span><span class="tape-item red">✦</span>
+      <span class="tape-item">KICKS</span><span class="tape-item red">✦</span>
+      <span class="tape-item">HI-HATS</span><span class="tape-item red">✦</span>
+      <span class="tape-item">SNARES</span><span class="tape-item red">✦</span>
+      <span class="tape-item">PERCS</span><span class="tape-item red">✦</span>
+      <span class="tape-item">FROSTWAVE KITS</span><span class="tape-item red">✦</span>
+      <span class="tape-item">808S</span><span class="tape-item red">✦</span>
+      <span class="tape-item">KICKS</span><span class="tape-item red">✦</span>
+      <span class="tape-item">HI-HATS</span><span class="tape-item red">✦</span>
+      <span class="tape-item">SNARES</span><span class="tape-item red">✦</span>
+      <span class="tape-item">PERCS</span><span class="tape-item red">✦</span>
+    </div>
+  </div>
+
+  <section class="catalogue">
+    <div class="section-label">Kits disponibles</div>
+
+    <!-- KIT 1 -->
+    <div class="kit-card">
+      <div class="kit-left">
+        <div class="kit-cover">❄️</div>
+        <div class="kit-info">
+          <h3>FrostWave Kit Vol. 1</h3>
+          <p class="kit-desc">150+ samples · Kicks, 808s, Hi-hats, Snares, Percs</p>
+          <ul class="kit-contenu">
+            <li>✓ 40 Kicks</li>
+            <li>✓ 30 808s</li>
+            <li>✓ 50 Hi-hats & Percs</li>
+            <li>✓ 30 Snares</li>
+          </ul>
+        </div>
+      </div>
+      <div class="kit-right">
+        <span class="kit-prix">19€</span>
+        <button onclick="ajouterAuPanier('FrostWave Kit Vol. 1', 19, 'Drum Kit')" class="btn-acheter">
+          🛒 Ajouter
+        </button>
+      </div>
+    </div>
+
+    <!-- KIT 2 -->
+    <div class="kit-card">
+      <div class="kit-left">
+        <div class="kit-cover">🧊</div>
+        <div class="kit-info">
+          <h3>FrostWave Kit Vol. 2 — Drill Edition</h3>
+          <p class="kit-desc">200+ samples · Spécialement conçu pour la drill</p>
+          <ul class="kit-contenu">
+            <li>✓ 60 Kicks UK/Chicago</li>
+            <li>✓ 40 808s slides</li>
+            <li>✓ 60 Hi-hats rollés</li>
+            <li>✓ 40 Snares claqués</li>
+          </ul>
+        </div>
+      </div>
+      <div class="kit-right">
+        <span class="kit-prix">29€</span>
+        <button onclick="ajouterAuPanier('FrostWave Kit Vol. 2 — Drill Edition', 29, 'Drum Kit')" class="btn-acheter">
+          🛒 Ajouter
+        </button>
+      </div>
+    </div>
+
+    <!-- BUNDLE -->
+    <div class="kit-card kit-bundle">
+      <div class="kit-left">
+        <div class="kit-cover">💎</div>
+        <div class="kit-info">
+          <h3>Bundle Complet — Vol. 1 + Vol. 2</h3>
+          <p class="kit-desc">350+ samples · Les deux kits au prix groupé</p>
+          <ul class="kit-contenu">
+            <li>✓ Tout le Vol. 1</li>
+            <li>✓ Tout le Vol. 2</li>
+            <li>✓ 10 Bonus exclusifs</li>
+          </ul>
+        </div>
+      </div>
+      <div class="kit-right">
+        <span class="kit-prix-barre">48€</span>
+        <span class="kit-prix kit-prix-promo">39€</span>
+        <button onclick="ajouterAuPanier('Bundle Vol. 1 + Vol. 2', 39, 'Drum Kit Bundle')" class="btn-acheter btn-exclu">
+          💎 Ajouter
+        </button>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="contact-rapide">
+    <h3>Une question ?</h3>
+    <p>Écris-moi : <a href="mailto:frostwave.wav@gmail.com">frostwave.wav@gmail.com</a></p>
+    <a href="contact.html" class="btn-secondaire">📩 Formulaire de contact</a>
+  </section>
+
+  <footer>
+    <p>© 2026 FrostWave — Tous droits réservés</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
